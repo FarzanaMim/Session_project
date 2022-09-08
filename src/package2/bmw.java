@@ -5,12 +5,12 @@ import package1.banglamotors;
 public class bmw {
 	
 	static banglamotors obj1=new banglamotors();
-	static bmw obj2=new bmw();
+	//static bmw obj2=new bmw();
 	
 	
 public static void bmwCreateEngine() {
 		
-		int bmwavalve=obj1.getvalve();
+		int bmwavalve=banglamotors.getvalve();
 		int bmwSparkplug=obj1.getsparkPlug();
 		int bmwPiston=obj1.getpiston();
 		int bmwcombustion_chamber=obj1.combustion_chamber;

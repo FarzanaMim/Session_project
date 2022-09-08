@@ -2,7 +2,7 @@ package package1;
 
 public class banglamotors {
 	
-	private int valve=4;
+	private static int valve=4;
 	private  int spark_plug=2;
 	private int piston=2;
 	protected int cylinder=3;
@@ -10,7 +10,7 @@ public class banglamotors {
 	public int combustion_chamber=4;
 	
 	
-	public int getvalve() {
+	public static int getvalve() {
 		return valve;
 	}
 	
