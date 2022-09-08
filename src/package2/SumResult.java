@@ -5,8 +5,8 @@ import package1.Sum;
 public class SumResult extends Sum{
 	
 	
-	public static  int sumResult(int a,int b) {
-		int result;
+	public static  double sumResult(double a,double b) {
+		double result;
 		
 		result=a*b;
 		return result;
@@ -16,10 +16,10 @@ public class SumResult extends Sum{
 	public static void main(String[] args) {
 		
       
-      int summetion=Sum.sumResult(4,5);
+		double summetion=Sum.sumResult(4.3,5.3);
       System.out.println("Summetion:" +summetion);
       
-      int multiplication=sumResult(6,7);
+      double multiplication=sumResult(6,7);
       System.out.println("Multiplication:" +multiplication);
       
 			
