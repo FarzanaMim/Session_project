@@ -25,6 +25,7 @@ public class SumResult extends Sum{
       double multiplication=object2.sumResult(6.667,7.64454);
       System.out.println("Multiplication:" +multiplication);
       
+      
 			
 		
 	
